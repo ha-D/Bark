@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:id="@+id/search_filter"
+        android:title="Search"
+        android:icon="@drawable/ic_search"
+        app:showAsAction="always"
+        app:actionViewClass="android.support.v7.widget.SearchView" />
+
+    <item
+        android:id="@+id/level_filter"
+        android:icon="@drawable/ic_filter"
+        android:title="@string/filter"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/tag_filter"
+        android:icon="@drawable/ic_tag"
+        android:title="@string/filter"
+        app:showAsAction="always"/>
+    <item
+        android:id="@+id/toggle_time"
+        android:icon="@drawable/ic_time"
+        android:title="Toggle Time"
+        app:showAsAction="always"/>
+
+</menu>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="icon_pause">#ff5e62</color>
+    <color name="icon_play">#63c95d</color>
+    <color name="icon_scroll_down">#b25dc9</color>
+
+    <color name="command_history">#99FFFFFF</color>
+    <color name="command_history_active">#BBFFFFFF</color>
+    <color name="command_history_text">#CC000000</color>
+
+</resources>

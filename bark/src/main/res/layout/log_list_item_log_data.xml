@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    >
+
+    <TextView
+        android:id="@+id/key"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textSize="12sp"
+        android:text="key"
+        android:clickable="false"
+        android:focusable="false"
+        android:textStyle="normal" />
+
+    <TextView
+        android:id="@+id/value"
+        android:layout_width="0dp"
+        android:clickable="false"
+        android:focusable="false"
+        android:layout_height="wrap_content"
+        android:layout_weight="3"
+        android:textSize="12sp"
+        android:text="value" />
+
+    <TextView
+        android:id="@+id/expand_icon"
+        android:layout_width="10dp"
+        android:layout_height="wrap_content"
+        android:clickable="false"
+        android:focusable="false"
+        android:textSize="20sp"
+        android:textColor="#eee"
+        android:text="⬇"
+
+        />
+</LinearLayout>
