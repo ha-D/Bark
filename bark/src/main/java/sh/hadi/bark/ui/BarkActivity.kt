@@ -42,7 +42,6 @@ open class BarkActivity(private val barkInstanceName: String = DEFAULT_DB_NAME) 
 
     private var clearLogsId: Int? = null
     private var goToItemId: Int? = null
-    private var clearAppData: Int? = null
     private var logsPaused: Boolean = false
 
     private var commandHistoryList = ArrayList<Int>()
@@ -182,11 +181,6 @@ open class BarkActivity(private val barkInstanceName: String = DEFAULT_DB_NAME) 
         if (clearLogsId == null) {
             clearLogsId = View.generateViewId()
             menu?.add(0, clearLogsId ?: 0, Menu.NONE, "Clear Logs")
-        }
-
-        if (clearAppData == null) {
-            clearAppData = View.generateViewId()
-            menu?.add(0, clearAppData ?: 0, Menu.NONE, "Clear Application Data")
         }
 
         menu?.let { barkCommands?.populateMenu(menu) }
